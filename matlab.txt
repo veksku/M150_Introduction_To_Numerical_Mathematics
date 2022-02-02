@@ -36,3 +36,6 @@ F=sym(f); -konvertujemo funkciju u simbolicku
 F1=diff(F); -izvod simbolicke funkcije
 f1=matlabFunction(F1); -konvertujemo simbolicku funkciju F1 u anonimnu funkciju
 polyint(X); -integracija simbolicke funkcije X
+
+C = cell(n,m) - pravi celiju sa n redova i m kolona i smesta je u C, korisna za cebisevljeve i lezandrove polinome
+celldisp(C) - ispis celije C, jer napisati samo C bez tacke zareza nece ispisati celije C
